@@ -2,11 +2,11 @@
 
 ## Installation
 
-Clone the repo and run `yarn install`
+Clone the repo, run `yarn install`, and `yarn prepare`
 
 ## Start
 
-After the successfull installation of the packages: `yarn dev`
+After the successfull installation of the packages: `yarn start`
 
 ## Steps in Vscode
 
