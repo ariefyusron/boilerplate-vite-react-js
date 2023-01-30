@@ -1,3 +1,6 @@
+import 'antd/dist/reset.css';
+
+import { ConfigProvider } from 'antd';
 import React from 'react';
 import { RouterProvider } from 'react-router-dom';
 
@@ -6,7 +9,9 @@ import router from './router';
 
 const App = () => (
   <SuspenseLoading>
-    <RouterProvider router={router} />
+    <ConfigProvider theme={{}}>
+      <RouterProvider router={router} />
+    </ConfigProvider>
   </SuspenseLoading>
 );
 
